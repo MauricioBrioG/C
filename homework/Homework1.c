@@ -9,16 +9,14 @@ int main()
    
    while((a = getchar())!= EOF)
    if (a == '<' || a == '>') { 
-       ++angle1;                        
-   } else if (isspace(a) || a == '/') { //Help for solution teacher example, 
-                                        //cause idk how to represent the spaces of the html
-                                        // I'm talking about the "isspace"
-       ++space;
+       ++angle1;                        //Book example*
+   } else if (isspace(a) || a == '/') { //Help for solution teacher example, cause idk how to represent the spaces of the html
+       ++space;                        //*
       } else {
        if (angle1) { //The condition is true
            putchar (' '); // Sustitute with a blank space
            angle1 = 0; //Hlp for solution teacher example, cause the text didn't see it well
-                        // I didn't know how to fix it *
+                        // I didn't know how to fix it **
        } else {
            if (space) {
                putchar (' '); 
