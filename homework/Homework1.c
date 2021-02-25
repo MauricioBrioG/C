@@ -1,4 +1,5 @@
 //Acomodo del sintax if: https://n9.cl/mdore
+//Also Help me the blank example that share the teacher
 #include <stdio.h>
 
 int main()
