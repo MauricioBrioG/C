@@ -10,13 +10,13 @@ int main()
    
    while((a = getchar())!= EOF)
    if (a == '<' || a == '>') { 
-       ++angle1;                        //Book example*
-   } else if (isspace(a) || a == '/') { //Help for solution teacher example, cause idk how to represent the spaces of the html
+       ++angle1;                        //Book example, to increment the value by one, it helps to have spaces between the words*
+   } else if (isspace(a) || a == '/') { //Help for solution teacher example, cause idk how to represent the spaces of the html "isspace"
        ++space;                        //*
       } else {
        if (angle1) { 
            putchar (' '); // Sustitute with a blank space
-           angle1 = 0; //Hlp for solution teacher example, cause the text didn't see it well
+           angle1 = 0; //Hlp for solution teacher example, cause the output text didn't see it well
                         // I didn't know how to fix it **
        } else {
            if (space) {
