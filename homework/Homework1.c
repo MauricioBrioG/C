@@ -13,7 +13,7 @@ int main()
    } else if (isspace(a) || a == '/') { //Help for solution teacher example, cause idk how to represent the spaces of the html
        ++space;                        //*
       } else {
-       if (angle1) { //The condition is true
+       if (angle1) { 
            putchar (' '); // Sustitute with a blank space
            angle1 = 0; //Hlp for solution teacher example, cause the text didn't see it well
                         // I didn't know how to fix it **
