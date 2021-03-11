@@ -1,4 +1,4 @@
-#include <stdio.h>          //input para ejemplo: 486 456.789 "5989" (78541) [495974] {4163569956} <59644> HOLA
+#include <stdio.h>          //input para ejemplo: 456.789 "5989" (78541) [495974] {4163569956} <59644> HOLA
 #define TRUE 1              //Agradezco a mi compañero Ruben y Miguel quienes me ayudaron a resolver dudas y darme consejos
 #define FALSE 0             
 
