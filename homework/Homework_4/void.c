@@ -24,7 +24,7 @@ void instruccion(int *x,int *y) {
     printf("------------------------------------------------------------- \n");
 
     while (!valid(*x,*y)) {
-        printf(" Ingresa otras coordenadas, ya que no son válidas las que escribiste.\n");
+        printf(" Ingresa otras coordenadas, ya que no son validas las que escribiste.\n");
         printf("----> ");
         scanf("%d%d", x, y);
     }
