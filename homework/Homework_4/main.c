@@ -17,7 +17,7 @@ int main() {
     int move(char board[][dimension], char tabreal[][dimension],
             int bombas[][2], int vertical, int horizontal, int *historial) {
     int i, j, num;
-    if (tabreal[horizontal][vertical]=='*') {
+    if (tabreal[horizontal][vertical]=='*') { // Cuando se toca una bomba
         board[horizontal][vertical]='*';
         for (i=0;i<BOMB;i++)
             board[bombas[i][0]][bombas[i][1]]='*';
@@ -34,14 +34,14 @@ int main() {
         if (num == 0) {
             for (i=-1;i<2;i++) {
             for (j=-1;j<2;j++) {
-                if (valid(horizontal+i,vertical+j) && (board[horizontal+i][vertical+j]=='#'))
-	                    move(board, tabreal, bombas, horizontal+i, vertical+j, historial);
-	            }
-            }
+              if (valid(horizontal+i,vertical+j) && (board[horizontal+i][vertical+j]=='#'))
+	      move(board, tabreal, bombas, horizontal+i, vertical+j, historial);
+	  }
+         }
         }
       return 0;
     }
-}
+} //se colocan las bombas de forma aleatoria
     for (i=0;i<dimension;i++) {
         for (j=0;j<dimension;j++) {
             actual[i][j] = '#';
@@ -68,9 +68,9 @@ int main() {
 int valid(int horizontal, int vertical) {
     if (horizontal < 0){return 0;
     }else if (horizontal >= dimension) {return 0;
-    }else if (vertical < 0) {return 0;
-    }else if (vertical >= dimension) {return 0;
-    }else {return 1;
+    	}else if (vertical < 0) {return 0;
+    		}else if (vertical >= dimension) {return 0;
+    			}else {return 1;
     }
 }
 int numberbombs(int horizontal ,int vertical ,int bombas[][2]) {
