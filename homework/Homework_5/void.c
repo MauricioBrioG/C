@@ -1,6 +1,6 @@
 #include <stdio.h>
 //No logré incorporar el header debido a un error de multiples definiciones, por lo que reenombre variables.
-int dimen= 10;
+int dimen= 5;
 void printboard(char[][dimen]); //imprime la tabla
 void printboard(char board[][dimen]) {
     int i,j;
@@ -32,7 +32,7 @@ void instruccion(int *x,int *y) {
 void randombomb(int bombardeo[][2]) {
 int i;
 int h;
-int BOMB=20;
+int BOMB=6;
 int actb[dimen*dimen];
     for (i=0; i<dimen*dimen; i++)
     actb[i] = 0;
