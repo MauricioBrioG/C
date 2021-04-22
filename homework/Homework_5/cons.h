@@ -1,4 +1,4 @@
-int dimension= 5;
+int dimension= 10;
 void printboard(char[][dimension]);
 int numberbombs(int,int,int[][2]);
 int movement(char[][dimension], char[][dimension], int[][2], int, int, int*);
