@@ -1,7 +1,7 @@
 #include <stdio.h>
-
+//No logré incorporar el header debido a un error de multiples definiciones, por lo que reenombre variables.
 int dimen= 10;
-void printboard(char[][dimen]);
+void printboard(char[][dimen]); //imprime la tabla
 void printboard(char board[][dimen]) {
     int i,j;
     printf("    ");
@@ -14,22 +14,21 @@ void printboard(char board[][dimen]) {
         printf("%c ",board[i][j]);
         printf("\n");
     }
-}
+} //Instrucciones para jugar
 void instruccion(int *x,int *y) {
-    printf("El primer numero es x y el segundo es y \n");
-    printf ("No olvides colocar un espacio entre las coordenadas \n");
+    printf("El primer numero es x y el segundo es y, colocar un espacio entre las coordenadas  \n");
     printf ("Las dimensiones de la tabla son de 10x10 las coordenadas van del 0 al 9 \n");
     printf("Ingresa los datos: ");
     scanf("%d%d", x, y);
     printf("------------------------------------------------------------- \n");
-
+//Valida las coordenadas
     while (!valid(*x,*y)) {
         printf(" Ingresa otras coordenadas, ya que no son validas las que escribiste.\n");
         printf("----> ");
         scanf("%d%d", x, y);
     }
 }
-
+//Añade las bombas
 void randombomb(int bombardeo[][2]) {
 int i;
 int h;
