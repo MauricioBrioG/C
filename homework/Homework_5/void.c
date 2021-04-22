@@ -1,6 +1,6 @@
 #include <stdio.h>
 //No logré incorporar el header debido a un error de multiples definiciones, por lo que reenombre variables.
-int dimen= 5;
+int dimen= 10;
 void printboard(char[][dimen]); //imprime la tabla
 void printboard(char board[][dimen]) {
     int i,j;
