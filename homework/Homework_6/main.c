@@ -6,30 +6,16 @@
 #include "tree.h"
 
 node *insert(char *user, char *pass, node *pos)
-{
-
-  node *temp;
+{ node *temp;
   if (pos == NULL)
   {
     pos = (node *)malloc(sizeof(node));
     pos->user = user;
     pos->pass = pass;
   }
-  else if (pos->right == NULL)
-  {
-    pos->right = (node *)malloc(sizeof(node));
-    pos->user = user;
-    pos->pass = pass;
-  }
-  else if (pos->left == NULL)
-  {
-    pos->left = (node *)malloc(sizeof(node));
-    pos->user = user;
-    pos->pass = pass;
-  }
-
   return pos;
 }
+
 void main()
 {
   node *n = NULL;
@@ -59,7 +45,7 @@ void main()
       i += getdata(pass, line + i);
     }
 
-    if (strstr(type, "add") && user && pass)
+    if (strstr(type, "add"))
     {
       n = insert(user, pass, tree);
       if (tree == NULL)
@@ -69,11 +55,17 @@ void main()
   }
   return 0;
 }
-
-void show(node *position)
-{
-
-  if (position != NULL)
+int getdata(char *user, char *line)
+(int i = 0, j = 0;
+  if (isspace(line[0]))
+    while (isspace(line[++i]))
+      ;
+  while (!isspace(line[i]))
+    user[j++] = line[i++];
+  return i;
+}
+ void show(node *position)
+{if (position != NULL)
   {
     printf("%s,  ", position->user);
     if (position->left != NULL)
@@ -83,17 +75,4 @@ void show(node *position)
   }
   printf("\n");
   return;
-}
-
-int getdata(char *user, char *line)
-{
-
-  int i = 0, j = 0;
-  if (isspace(line[0]))
-    while (isspace(line[++i]))
-      ;
-  while (!isspace(line[i]))
-    user[j++] = line[i++];
-  user[i] = '\0';
-  return i;
 }
