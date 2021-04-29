@@ -1,4 +1,4 @@
-//Hice el intento, pero tengo un error que no me permite copilar//
+//Hice el intento, pero tengo varios errores que no me permiten copilar, para que si quieren se ahorren el checar si copila//
 
 #include <stdio.h>
 #include <ctype.h>
