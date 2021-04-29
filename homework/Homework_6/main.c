@@ -37,14 +37,6 @@ void main()
         count++;
     }
     line[i] = '\0';
-
-    if (count >= 2)
-    {
-      i = getdata(type, line);
-      i += getdata(user, line + i);
-      i += getdata(pass, line + i);
-    }
-
     if (strstr(type, "add"))
     {
       n = insert(user, pass, tree);
