@@ -1,8 +1,35 @@
-include <stdio.h>
+//Hice el intento, pero tengo un error que no me permite copilar//
+
+#include <stdio.h>
 #include <ctype.h>
 #include <stdlib.h>
 #include "tree.h"
 
+node *insert(char *user, char *pass, node *pos)
+{
+
+  node *temp;
+  if (pos == NULL)
+  {
+    pos = (node *)malloc(sizeof(node));
+    pos->user = user;
+    pos->pass = pass;
+  }
+  else if (pos->right == NULL)
+  {
+    pos->right = (node *)malloc(sizeof(node));
+    pos->user = user;
+    pos->pass = pass;
+  }
+  else if (pos->left == NULL)
+  {
+    pos->left = (node *)malloc(sizeof(node));
+    pos->user = user;
+    pos->pass = pass;
+  }
+
+  return pos;
+}
 void main()
 {
   node *n = NULL;
@@ -56,32 +83,6 @@ void show(node *position)
   }
   printf("\n");
   return;
-}
-
-node *insert(char *user, char *pass, node *pos)
-{
-
-  node *temp;
-  if (pos == NULL)
-  {
-    pos = (node *)malloc(sizeof(node));
-    pos->user = user;
-    pos->pass = pass;
-  }
-  else if (pos->right == NULL)
-  {
-    pos->right = (node *)malloc(sizeof(node));
-    pos->user = user;
-    pos->pass = pass;
-  }
-  else if (pos->left == NULL)
-  {
-    pos->left = (node *)malloc(sizeof(node));
-    pos->user = user;
-    pos->pass = pass;
-  }
-
-  return pos;
 }
 
 int getdata(char *user, char *line)
