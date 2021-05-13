@@ -12,4 +12,11 @@ The program Will do the next tasks:
 
 **Adopt a dog:** When someone wants to adopt a dog, when you want to check out, the program will ask you if you are sure and can take the responsibility of take care of the selected dog and to finish the process you will be asked for the name of the dog to give a message to say goodbye. 
 
+When the program is run, a menu of actions will be displayed that will look like this:
+--------------------------------------------------------------------------------------
+Welcome to the pet adoption system, what would you like to do?
+1. See the available dogs
+2. See the description of a dog
+3. Register a new member
+4. Adopt your partner
 
