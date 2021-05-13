@@ -4,9 +4,9 @@ The **main idea** is to make a program that helps in the adoption process showin
 
 The program Will do the next tasks:
 -----------------------------------
-**Dog breeds and names:** You can see the breeds of dogs that are available to adopt, through a list that includes the name of the dog follow by its breed, that will be inside a .txt file.
+**Dog breeds and names:** You can see the breeds of dogs that are available to adopt, through a list that includes the name of the dog follow by its breed.
 
-**Pet description and care:** You can see the description of each animal which helps to have a much more medical information that helps the adoption process and in order to let decide to the family if the dog can have all the needs covered. The information is going to be name, breed, age, sex, weight and if there is a special care. This is going to be in a second .txt file.
+**Pet description and care:** You can see the description of each animal which helps to have a much more medical information that helps the adoption process and in order to let decide to the family if the dog can have all the needs covered. The information is going to be name, breed, age, sex, weight and if there is a special care.
 
 **Register a dog:** To add a new dog to the list we need to include its breed, if is female or male, approximate age (human age), weight (kg) and if any special care is needed like is there present a disease, what drugs needs to consume, kind of dog’s food, portions, etc. You must also write a name for the future member of a family to complete the register.
 
