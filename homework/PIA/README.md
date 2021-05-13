@@ -1,12 +1,6 @@
 PIA PET ADOPTION
 ===================
-When the program is run, a menu of actions will be displayed that will look like this:
---------------------------------------------------------------------------------------
-Welcome to the pet adoption system, what would you like to do?
-1. See the available dogs
-2. See the description of a dog
-3. Register a new member
-4. Adopt your partner
+The **main idea** is to make a program that helps in the adoption process showing information that helps in making decisions when adopting a dog.
 
 The program Will do the next tasks:
 -----------------------------------
