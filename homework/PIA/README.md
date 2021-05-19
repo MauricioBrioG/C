@@ -16,7 +16,7 @@ When the program is run, a menu of actions will be displayed that will look like
 --------------------------------------------------------------------------------------
 Welcome to the pet adoption system, what would you like to do?
 1. See the available dogs
-2. See the description of a dog
+2. See the description of our dogs
 3. Register a new member
 4. Adopt your partner
 
