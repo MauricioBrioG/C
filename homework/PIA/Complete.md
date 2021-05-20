@@ -83,7 +83,7 @@ Ejection Example
 <img src="https://github.com/MauricioBrioG/C/blob/main/homework/PIA/Images_Program/option_2.PNG" width="550px" height="250px"></a>
 
 **Option 3**
-<img src="https://github.com/MauricioBrioG/C/blob/main/homework/PIA/Images_Program/option_3.PNG" width="550px" height="250px"></a>
+<img src="https://github.com/MauricioBrioG/C/blob/main/homework/PIA/Images_Program/option_3_1.PNG" width="550px" height="250px"></a>
 
 **Option 4**
 <img src="https://github.com/MauricioBrioG/C/blob/main/homework/PIA/Images_Program/option_4.PNG" width="550px" height="250px"></a>
@@ -98,3 +98,11 @@ References
   - Empieza a Programar.(2013, 30 diciembre). Bloque 8.3: Escribir en Fichero de Texto con fprintf [Vídeo]. YouTube. https://www.youtube.com/watch?v=QEhglzIGU6I
   - Multi- Code MX. (2017, 20 abril). Lectura de varias cadenas de caracteres con espacios en lenguaje C [Vídeo]. YouTube. https://www.youtube.com/watch?v=Fny0v-EDqtA&t=494s
  ```
+Autoevaluation
+--------------
+1: complexity 2 (It is complex because of the use of .txt files, but the use of a switch and if makes it easier)
+2: functionality 3 (Works great, sometimes something may go wrong, but it is rare
+3: code 3 (The code is clean and easily understood)
+4: storage 1 (storage is limited)
+5: documentation 2 (I made the video quickly showing the functionality of the program, it could have some spelling mistakes)
+FC: 11 of 15
