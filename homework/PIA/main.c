@@ -138,7 +138,7 @@ void lista(){
      f= fopen("perros.txt", "a");
             if(f == NULL){
             printf("The file could not be opened.");
-            } else { printf("Nombre y raza:\n");
+            } else { printf("Name and breed:\n");
             fgets(nombre, 50, stdin);
             fprintf(f, "%s", nombre);
             } 
