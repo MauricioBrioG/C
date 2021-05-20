@@ -69,7 +69,7 @@ The **main idea** is to make a program that helps in the adoption process showin
 
 ## UI :iphone:
 
-<img src="https://github.com/MauricioBrioG/C/blob/main/homework/PIA/Images_Program/menu.PNG" width="350px" height="250px"></a>
+<img src="https://github.com/MauricioBrioG/C/blob/main/homework/PIA/Images_Program/menu.PNG" width="550px" height="250px"></a>
 
 
 ## References :page_with_curl:
