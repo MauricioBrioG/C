@@ -101,7 +101,7 @@ References
 Autoevaluation
 --------------
 ```plain
-- 1: complexity 1 (It uses switch and if, but uses .txt file and I had troubles with it)(Simple but had its complexity)
+- 1: complexity 1 (Simple but had its complexity)
 - 2: functionality 3 (Works great, sometimes something may go wrong, but it is rare)
 - 3: code 3 (The code is clean and easily understood)
 - 4: storage 1 (storage is limited, when it is near of the limit it can failed)
