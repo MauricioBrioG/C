@@ -106,5 +106,5 @@ Autoevaluation
 - 3: code 3 (The code is clean and easily understood)
 - 4: storage 1 (storage is limited, when it is near of the limit it can failed)
 - 5: documentation 2 (I made the video quickly showing the functionality of the program, it could have some spelling mistakes)
-- FC: 11 of 15
+- FC: 10 of 15
 ```
