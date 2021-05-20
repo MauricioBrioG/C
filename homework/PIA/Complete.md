@@ -36,8 +36,7 @@ The Program have the next specifications:
 ```
 - Adopt
 ```plain
-  - The main idea is eliminate from the list and description the dog that had been adopted (Only if it is posible)
-  - Plan b, add to a list of adoption the ones who were adopt
+  - Add to a list of adoption the ones who were adopt
   - Include only the name
 ```
 
@@ -68,6 +67,9 @@ Files
 **adoption.txt**
 -only will be the name
 
+YouTube 
+--------
+https://youtu.be/ocpqDM7-38U
 
 Ejection Example
 ----------------
