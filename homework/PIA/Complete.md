@@ -1,14 +1,15 @@
-# Dog Adoption System
+Dog Adoption System
+=========================
 
 
-
-## Main idea 
+Main idea 
+-----------
 
 The **main idea** is to make a program that helps in the adoption process showing information that helps in making decisions when adopting a dog.
 
   
-## The Program have the next specifications:
-
+The Program have the next specifications:
+-------------------------------------------
 
 - Menu
  ```plain
@@ -40,7 +41,8 @@ The **main idea** is to make a program that helps in the adoption process showin
   - Include only the name
 ```
 
-## Files :page_facing_up:
+Files 
+-------
 
 | **.c** |  **.h** | **.txt** |
 |:-----|:--------:|:--------:|
@@ -48,9 +50,9 @@ The **main idea** is to make a program that helps in the adoption process showin
 |    |    |   _descrip_  |
 |     |     |   _adoption_|
 
-*adoption.txt it is in case that I could not do the first idea*
 
-### .txt Format 
+.txt Format 
+------------
 **dogs.txt**
 -name1 breed1
 -name2 breed2
@@ -67,7 +69,8 @@ The **main idea** is to make a program that helps in the adoption process showin
 -only will be the name
 
 
-## Ejection Example
+Ejection Example
+----------------
 **Menu**
 <img src="https://github.com/MauricioBrioG/C/blob/main/homework/PIA/Images_Program/menu.PNG" width="550px" height="250px"></a>
 
@@ -86,21 +89,10 @@ The **main idea** is to make a program that helps in the adoption process showin
 **Option 5**
 <img src="https://github.com/MauricioBrioG/C/blob/main/homework/PIA/Images_Program/option_5.PNG" width="550px" height="250px"></a>
 
-## References :page_with_curl:
-
+References 
+---------------
 ```plain
   - Delgado, H. (2020, 21 noviembre). Ficheros - Abrir, cerrar, leer y agregar archivos de texto. Diseño Web akus.net. https://disenowebakus.net/ficheros.php
   - Empieza a Programar.(2013, 30 diciembre). Bloque 8.3: Escribir en Fichero de Texto con fprintf [Vídeo]. YouTube. https://www.youtube.com/watch?v=QEhglzIGU6I
   - Multi- Code MX. (2017, 20 abril). Lectura de varias cadenas de caracteres con espacios en lenguaje C [Vídeo]. YouTube. https://www.youtube.com/watch?v=Fny0v-EDqtA&t=494s
-  - For this format of Readme.md I based on https://gist.github.com/Villanuevand/6386899f70346d4580c723232524d35a
  ```
-
-
-
-
-
-## Author(s)
-Mauricio Briones M:2077700 Programacion Estructurada
-
-## License
-For Academic Purposes Only
