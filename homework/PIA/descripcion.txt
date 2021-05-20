@@ -4,3 +4,10 @@ Gender: Male
 Age: 9 months
 Weight: 2.4 kg
 Special care: None
+
+Name: Kiko
+Breed: Bulldog
+Gender: Male
+Age: 7 years old
+Weight(kg): 20 kg
+Special care: None
