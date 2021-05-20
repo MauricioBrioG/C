@@ -88,10 +88,16 @@ The **main idea** is to make a program that helps in the adoption process showin
 
 ## References :page_with_curl:
 
-Delgado, H. (2020, 21 noviembre). Ficheros - Abrir, cerrar, leer y agregar archivos de texto. Diseño Web akus.net. https://disenowebakus.net/ficheros.php
-Empieza a Programar.(2013, 30 diciembre). Bloque 8.3: Escribir en Fichero de Texto con fprintf [Vídeo]. YouTube. https://www.youtube.com/watch?v=QEhglzIGU6I
-Multi- Code MX. (2017, 20 abril). Lectura de varias cadenas de caracteres con espacios en lenguaje C [Vídeo]. YouTube. https://www.youtube.com/watch?v=Fny0v-EDqtA&t=494s
-For this format of Readme.md I based on Abner's Repository
+```plain
+  - Delgado, H. (2020, 21 noviembre). Ficheros - Abrir, cerrar, leer y agregar archivos de texto. Diseño Web akus.net. https://disenowebakus.net/ficheros.php
+  - Empieza a Programar.(2013, 30 diciembre). Bloque 8.3: Escribir en Fichero de Texto con fprintf [Vídeo]. YouTube. https://www.youtube.com/watch?v=QEhglzIGU6I
+  - Multi- Code MX. (2017, 20 abril). Lectura de varias cadenas de caracteres con espacios en lenguaje C [Vídeo]. YouTube. https://www.youtube.com/watch?v=Fny0v-EDqtA&t=494s
+  - For this format of Readme.md I based on Abner's Repository
+ ```
+
+
+
+
 
 ## Author(s)
 Mauricio Briones M:2077700 Programacion Estructurada
