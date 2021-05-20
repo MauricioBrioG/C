@@ -98,13 +98,13 @@ References
   - Empieza a Programar.(2013, 30 diciembre). Bloque 8.3: Escribir en Fichero de Texto con fprintf [Vídeo]. YouTube. https://www.youtube.com/watch?v=QEhglzIGU6I
   - Multi- Code MX. (2017, 20 abril). Lectura de varias cadenas de caracteres con espacios en lenguaje C [Vídeo]. YouTube. https://www.youtube.com/watch?v=Fny0v-EDqtA&t=494s
  ```
-Autoevaluation
+Self appraisal
 --------------
 ```plain
-- 1: complexity 1 (Simple but had its complexity)
-- 2: functionality 3 (Works great, sometimes something may go wrong, but it is rare)
+- 1: complexity 1 (I could do it more complex, but it didn't compile)
+- 2: functionality 2 (I could use a loop to not run the program to do every option)
 - 3: code 3 (The code is clean and easily understood)
 - 4: storage 1 (storage is limited, when it is near of the limit it can failed)
 - 5: documentation 2 (I made the video quickly showing the functionality of the program, it could have some spelling mistakes)
-- FC: 10 of 15
+- FC: 9 of 15
 ```
