@@ -67,10 +67,24 @@ The **main idea** is to make a program that helps in the adoption process showin
 -only will be the name
 
 
-## UI :iphone:
-
+## Ejection Example
+**Menu**
 <img src="https://github.com/MauricioBrioG/C/blob/main/homework/PIA/Images_Program/menu.PNG" width="550px" height="250px"></a>
 
+**Option 1**
+<img src="https://github.com/MauricioBrioG/C/blob/main/homework/PIA/Images_Program/option_1.PNG" width="550px" height="250px"></a>
+
+**Option 2**
+<img src="https://github.com/MauricioBrioG/C/blob/main/homework/PIA/Images_Program/option_2.PNG" width="550px" height="250px"></a>
+
+**Option 3**
+<img src="https://github.com/MauricioBrioG/C/blob/main/homework/PIA/Images_Program/option_3.PNG" width="550px" height="250px"></a>
+
+**Option 4**
+<img src="https://github.com/MauricioBrioG/C/blob/main/homework/PIA/Images_Program/option_4.PNG" width="550px" height="250px"></a>
+
+**Option 5**
+<img src="https://github.com/MauricioBrioG/C/blob/main/homework/PIA/Images_Program/option_5.PNG" width="550px" height="250px"></a>
 
 ## References :page_with_curl:
 
