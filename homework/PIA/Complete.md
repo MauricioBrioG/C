@@ -92,7 +92,7 @@ The **main idea** is to make a program that helps in the adoption process showin
   - Delgado, H. (2020, 21 noviembre). Ficheros - Abrir, cerrar, leer y agregar archivos de texto. Diseño Web akus.net. https://disenowebakus.net/ficheros.php
   - Empieza a Programar.(2013, 30 diciembre). Bloque 8.3: Escribir en Fichero de Texto con fprintf [Vídeo]. YouTube. https://www.youtube.com/watch?v=QEhglzIGU6I
   - Multi- Code MX. (2017, 20 abril). Lectura de varias cadenas de caracteres con espacios en lenguaje C [Vídeo]. YouTube. https://www.youtube.com/watch?v=Fny0v-EDqtA&t=494s
-  - For this format of Readme.md I based on Abner's Repository
+  - For this format of Readme.md I based on https://gist.github.com/Villanuevand/6386899f70346d4580c723232524d35a
  ```
 
 
