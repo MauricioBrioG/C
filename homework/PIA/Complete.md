@@ -100,9 +100,11 @@ References
  ```
 Autoevaluation
 --------------
-1: complexity 2 (It is complex because of the use of .txt files, but the use of a switch and if makes it easier)
-2: functionality 3 (Works great, sometimes something may go wrong, but it is rare
-3: code 3 (The code is clean and easily understood)
-4: storage 1 (storage is limited)
-5: documentation 2 (I made the video quickly showing the functionality of the program, it could have some spelling mistakes)
-FC: 11 of 15
+```plain
+- 1: complexity 2 (It is complex because of the use of .txt files, but the use of a switch and if makes it easier)
+- 2: functionality 3 (Works great, sometimes something may go wrong, but it is rare
+- 3: code 3 (The code is clean and easily understood)
+- 4: storage 1 (storage is limited)
+- 5: documentation 2 (I made the video quickly showing the functionality of the program, it could have some spelling mistakes)
+- FC: 11 of 15
+```
