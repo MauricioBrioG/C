@@ -102,9 +102,9 @@ Self appraisal
 --------------
 ```plain
 - 1: complexity 1 (I could do it more complex, but it didn't compile)
-- 2: functionality 2 (I could use a loop to not run the program to do every option)
+- 2: functionality 2 (I could use a loop to not run the program to do every option, it never break, when I try it)
 - 3: code 3 (The code is clean and easily understood)
-- 4: storage 1 (storage is limited, when it is near of the limit it can failed)
+- 4: storage 1 (storage is limited)
 - 5: documentation 2 (I made the video quickly showing the functionality of the program, it could have some spelling mistakes)
 - FC: 9 of 15
 ```
