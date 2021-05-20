@@ -1,0 +1,6 @@
+Name: Ekko
+Breed: Chihuahua
+Gender: Male
+Age: 9 months
+Weight: 2.4 kg
+Special care: None
